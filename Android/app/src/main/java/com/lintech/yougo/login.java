@@ -58,7 +58,7 @@ public class login extends AppCompatActivity {
     }
 
     public void loggedIn(){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, TripList.class);
         startActivity(intent);
     }
 

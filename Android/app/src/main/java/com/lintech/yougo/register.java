@@ -90,7 +90,7 @@ public class register extends AppCompatActivity {
     }
 
     public void login(){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, TripList.class);
         startActivity(intent);
     }
 
