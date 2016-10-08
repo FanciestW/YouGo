@@ -33,9 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:layout_toRightOf="@+id/longFld"
-        android:layout_alignBaseline="@+id/longFld"
-        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/longFld"
         android:text="Latitude:"
         android:id="@+id/latTxt" />
 
@@ -45,15 +43,14 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:layout_toRightOf="@+id/latTxt"
-        android:layout_alignBaseline="@+id/longFld"
-        android:layout_below="@+id/longTxt"
+        android:layout_alignBaseline="@id/latTxt"
         android:hint="-73.093164"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:layout_below="@+id/longFld"
+        android:layout_below="@+id/latTxt"
         android:text="Radius(m):"
         android:id="@+id/radTxt" />
 
@@ -66,25 +63,13 @@
         android:hint="500"
         android:id="@+id/radFld" />
 
-    <com.google.android.gms.maps.MapView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/radFld"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="50dp"
-        android:id="@+id/mapView"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
     <Button
-        android:text="Add Trip"
+        android:text="Save Trip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_below="@id/radTxt"
         android:id="@+id/addTripBtn"
-        android:onClick="addTrip"/>
+        android:onClick="changeTrip"/>
 
 </RelativeLayout>
