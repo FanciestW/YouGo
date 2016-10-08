@@ -48,7 +48,7 @@ public class register extends AppCompatActivity {
         final String email = regEmail.getText().toString();
         final String password = regPass.getText().toString();
         if(name.equals("")||email.equals("")||password.equals("")){
-            regErrLbl.setText("Please Fill Out All Fields");
+            regErrLbl.setText("*Please Fill Out All Fields");
         } else {
             mAuth.createUserWithEmailAndPassword(email, password)
                     .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
