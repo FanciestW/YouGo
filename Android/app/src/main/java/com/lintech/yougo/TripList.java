@@ -71,7 +71,7 @@ public class TripList extends AppCompatActivity {
     }
 
     public void newTrip(View view){
-        Intent intent = new Intent(this, newTrip.class);
+        Intent intent = new Intent(this, tripDetail.class);
         startActivity(intent);
     }
 }
