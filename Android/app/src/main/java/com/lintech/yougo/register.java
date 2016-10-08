@@ -1,6 +1,7 @@
 package com.lintech.yougo;
 
 import android.content.Intent;
+import android.os.Message;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -53,12 +54,19 @@ public class register extends AppCompatActivity {
                     .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
+                            User user = new User(name, email, task.getResult().getUser().getUid());
+                            newUser(user);
                             if(!task.isSuccessful()){
                                 regErrLbl.setText("Error Signing Up");
                             }
                         }
                     });
         }
+    }
+
+    public void newUser(User newUser){
+        usersDB.child(newUser.UID).setValue(newUser);
+        login();
     }
 
     @Override
