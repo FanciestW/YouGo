@@ -12,64 +12,65 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.lintech.yougo.newTrip">
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="Longitude:"
-        android:id="@+id/longTxt" />
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
 
-    <EditText
-        android:id="@+id/longFld"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
-        android:hint="41.316486"
-        android:layout_alignBaseline="@+id/longTxt"
-        android:layout_alignBottom="@+id/longTxt"
-        android:layout_toRightOf="@+id/longTxt"/>
+        <EditText
+            android:id="@+id/longFld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:ems="10"
+            android:layout_marginBottom="15dp"
+            android:hint="Longitude"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:layout_below="@+id/longFld"
-        android:text="Latitude:"
-        android:id="@+id/latTxt" />
+        <EditText
+            android:id="@+id/latFld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:ems="10"
+            android:layout_marginBottom="15dp"
+            android:hint="Latitude"/>
 
-    <EditText
-        android:id="@+id/latFld"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="numberDecimal"
-        android:layout_toRightOf="@+id/latTxt"
-        android:layout_alignBaseline="@id/latTxt"
-        android:hint="-73.093164"/>
+        <EditText
+            android:id="@+id/radFld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:ems="10"
+            android:layout_marginBottom="15dp"
+            android:hint="Radius(m)"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:layout_below="@+id/latTxt"
-        android:text="Radius(m):"
-        android:id="@+id/radTxt" />
+        <EditText
+            android:id="@+id/emailFld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
+            android:hint="Email"/>
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:layout_toRightOf="@+id/radTxt"
-        android:layout_alignBaseline="@+id/radTxt"
-        android:hint="500"
-        android:id="@+id/radFld" />
+        <Button
+            android:text="Save Trip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/radFld"
+            android:id="@+id/addTripBtn"
+            android:onClick="changeTrip"/>
 
-    <Button
-        android:text="Save Trip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/radTxt"
-        android:id="@+id/addTripBtn"
-        android:onClick="changeTrip"/>
+    </LinearLayout>
 
 </RelativeLayout>
