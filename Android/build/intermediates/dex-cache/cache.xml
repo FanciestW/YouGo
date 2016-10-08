@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_fb0cd1ae380be2c59aa17e880bcb5a52f5b356e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.6.1_2ea6205c09c8c61c22f521c9bcf7d18ab93afec2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e1f61894d8751ef42776f371073eda44afdf49f3">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_2be7dd58e110c35d4b2a48db22067bb318060d23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_eacab2f276e4bd90bc83f6b461cf3578eef11cc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_370be76b0c4ef1583c43bf9d06c103bcfd08c289\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.6.1_e76f575ae98207df77e6357ebd2b9e6e315b8505\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.1.1_e8c7eb7279f8a9f4b282472ea36870683da30fc0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.6.1_e35c036e3cfdcb4b9753c804d0c50ec5957ab8a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="863bad5629eb92c13aa6a09cb5c39d58d771262d">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e6f74625ae572ba6db7ac6651a39dcac7fbfc8e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.6.1_ed0b85264e5593977606f85fd156e711008efcfb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.1_2e6f05e83f8faf376c90248042990038f87cafac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_a350e0d826a89ffa66454d982157748b2afda1ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.6.1_8780f80c374e829b8b763604b14e06d1a26a8d1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.1_adc21ca22531b416eb393f34931d944b004d9628\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.1.1_5b2b89be9b13f85426b0c313feaa3e57c94f7030\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\William\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_11a8004bf3ea4bc38b6b2d1cfa80bfbc080da09e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.6.1_798320c71cd7bfc751c76eb3fb09b9e7e0311487\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_3c6ff2bd8f4048e60eb06a7bec2cdb53e83407c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.6.1_548e9ab6967ca28dc9e504f1db05597213eaf34c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-24.2.1_ba7b369c284c0af6b56b5de1eea8e5f21768a682\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.6.1_7d2a6ca13534fadfa14cda7eeb367f77f5a31c9f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="62ff84124b89177abc0c27f3e38c9732f2d41617">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.6.1_a1f2f9b6895a59639159b4bea46d59dd536e58f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.6.1_59ab8ba1617f9288e3297ce4089835990ccadd42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Documents\YouGo\Android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ac8365c87591065db07f7bac8551504504832cd4">
+        <dex dex="D:\Documents\YouGo\Android\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.6.1_871c2c2b78ddde20367331398e359cecac20ad54\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_triplist"
+            android:icon="@drawable/ic_list"
+            android:title="My Trips" />
+        <item
+            android:id="@+id/nav_myLoc"
+            android:icon="@drawable/ic_mylocation"
+            android:title="My Location" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/ic_logout"
+            android:title="Sign Out" />
+    </group>
+
+</menu>

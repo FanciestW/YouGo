@@ -1,0 +1,7 @@
+#Sat Oct 08 16:25:09 EDT 2016
+base.0=D\:\\Documents\\YouGo\\Android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e6f74625ae572ba6db7ac6651a39dcac7fbfc8e0
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\Documents\\YouGo\\Android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2be7dd58e110c35d4b2a48db22067bb318060d23\\classes.dex
+base.1=D\:\\Documents\\YouGo\\Android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_2be7dd58e110c35d4b2a48db22067bb318060d23
+file.0=D\:\\Documents\\YouGo\\Android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e6f74625ae572ba6db7ac6651a39dcac7fbfc8e0\\classes.dex
