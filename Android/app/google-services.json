@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "935478265782",
+    "firebase_url": "https://yougo-52af9.firebaseio.com",
+    "project_id": "yougo-52af9",
+    "storage_bucket": "yougo-52af9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935478265782:android:03361366d5530e61",
+        "android_client_info": {
+          "package_name": "com.lintech.yougo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935478265782-n9olg3oj08glqvibhrl3lvjblgs1r3l5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp5O107P2RZzx_XnbeAvWbWAZ1_34IHqE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
