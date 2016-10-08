@@ -21,7 +21,7 @@
         </activity>
         <activity android:name=".login" />
         <activity android:name=".TripList" />
-        <activity android:name=".newTrip"></activity>
+        <activity android:name=".tripDetail"></activity>
     </application>
 
 </manifest>

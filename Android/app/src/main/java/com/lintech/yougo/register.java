@@ -24,6 +24,7 @@ public class register extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
     private DatabaseReference usersDB = FirebaseDatabase.getInstance().getReference("users");
+    private DatabaseReference tripsDB = FirebaseDatabase.getInstance().getReference("trips");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,18 +55,21 @@ public class register extends AppCompatActivity {
                     .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
-                            User user = new User(name, email, task.getResult().getUser().getUid());
-                            newUser(user);
                             if(!task.isSuccessful()){
                                 regErrLbl.setText("Error Signing Up");
+                            } else {
+                                User user = new User(name, email, task.getResult().getUser().getUid());
+                                Trip trip = new Trip("0", "0", "0", "");
+                                newUser(user, trip);
                             }
                         }
                     });
         }
     }
 
-    public void newUser(User newUser){
+    public void newUser(User newUser, Trip newTrip){
         usersDB.child(newUser.UID).setValue(newUser);
+        tripsDB.child(newUser.UID).setValue(newTrip);
         login();
     }
 

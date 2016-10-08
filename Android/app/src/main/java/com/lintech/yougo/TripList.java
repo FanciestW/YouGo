@@ -51,10 +51,12 @@ public class TripList extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Trip trip = dataSnapshot.getValue(Trip.class);
-                longTxt.setText(trip.longitude);
-                latTxt.setText(trip.latitude);
-                radTxt.setText(trip.radius);
-                emailTxt.setText(trip.email);
+                if(trip != null) {
+                    longTxt.setText(trip.longitude);
+                    latTxt.setText(trip.latitude);
+                    radTxt.setText(trip.radius);
+                    emailTxt.setText(trip.email);
+                }
             }
 
             @Override
