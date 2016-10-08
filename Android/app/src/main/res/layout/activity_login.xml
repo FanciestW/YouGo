@@ -8,44 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
     tools:context="com.lintech.yougo.login">
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:ems="10"
-        android:layout_centerVertical="true"
-        android:layout_alignRight="@+id/logID"
-        android:layout_alignEnd="@+id/logID"
-        android:id="@+id/editText" />
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText">
-
-    </android.support.design.widget.TextInputLayout>
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/editText"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-
-    </android.support.design.widget.TextInputLayout>
-
-    <TextView
-        android:text="Login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/logID"
-        android:textSize="24sp"
-        android:layout_marginTop="78dp"
-        android:layout_below="@+id/textInputLayout"
-        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="match_parent"
@@ -53,7 +17,7 @@
         android:hint="E-mail"
         android:layout_marginBottom="25dp"
         android:id="@+id/emailFld"
-        android:layout_above="@+id/editText"
+        android:inputType="textEmailAddress"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -62,17 +26,40 @@
         android:layout_height="wrap_content"
         android:hint="Password"
         android:id="@+id/passFld"
-        android:layout_alignBaseline="@+id/editText"
-        android:layout_alignBottom="@+id/editText"
+        android:inputType="textPassword"
+        android:layout_below="@+id/emailFld"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <Button
-        android:text="Login"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/logBtn"
-        android:layout_below="@+id/editText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="78dp" />
+        android:id="@+id/logErrLbl"
+        android:layout_below="@+id/passFld"
+        android:textColor="#ff0000"
+        android:textSize="12sp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/logErrLbl"
+        android:gravity="center">
+
+        <Button
+            android:text="Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/logBtn"
+            android:onClick="login"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/logBtn"
+            android:text="Sign Up"
+            android:onClick="signup"/>
+
+    </RelativeLayout>
+
 </RelativeLayout>
