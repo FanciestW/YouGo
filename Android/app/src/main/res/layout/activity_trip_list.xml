@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_trip_list"
     android:layout_width="match_parent"
@@ -8,59 +9,55 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#4ABDAC"
     tools:context="com.lintech.yougo.TripList">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:background="#ECEFF1"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:orientation="vertical"
-        android:paddingTop="50dp"
-        android:paddingBottom="50dp"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp">
+        android:paddingTop="70dp"
+        android:paddingBottom="70dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:id="@+id/linearLayout">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="You're Trip"
-            android:textSize="25sp"
-            android:layout_marginBottom="25dp"
-            android:textStyle="bold"/>
+            android:text="Your Trip"
+            android:layout_marginBottom="30dp"
+            android:textSize="33sp"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/black"
+            android:fontFamily="monospace" />
 
         <TextView
             android:id="@+id/longTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
             android:layout_marginBottom="15dp"
-            android:text="Longitude"/>
+            android:text="Longitude:"
+            android:fontFamily="monospace" />
 
         <TextView
             android:id="@+id/latTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
             android:layout_marginBottom="15dp"
-            android:text="Latitude"/>
+            android:text="Latitude:"
+            android:fontFamily="monospace" />
 
         <TextView
             android:id="@+id/radTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
             android:layout_marginBottom="15dp"
-            android:text="Radius(m)"/>
-
-        <TextView
-            android:id="@+id/emailTxt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:layout_marginBottom="15dp"
-            android:hint="Email"/>
+            android:text="Radius(m):"
+            android:fontFamily="monospace" />
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -73,6 +70,10 @@
                 android:id="@+id/signoutBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="#FF6E40"
+                android:textColor="@android:color/black"
+                android:fontFamily="monospace"
+                android:layout_margin="2dp"
                 android:layout_toRightOf="@+id/newtripBtn"
                 android:text="Sign Out"
                 android:onClick="signout"/>
@@ -81,11 +82,26 @@
                 android:id="@+id/newtripBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:background="#FF6E40"
+                android:textColor="@android:color/black"
+                android:fontFamily="monospace"
+                android:layout_margin="2dp"
                 android:text="Edit Trip"
                 android:onClick="newTrip"/>
 
         </RelativeLayout>
 
     </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/ic_menu_manage"
+        android:id="@+id/floatingActionButton"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:layout_toEndOf="@+id/linearLayout" />
 
 </RelativeLayout>
