@@ -82,4 +82,10 @@ public class TripList extends AppCompatActivity {
         final TextView emailTxt = (TextView)findViewById(R.id.emailTxt);
         String email = emailTxt.getText().toString();
     }
+
+    public void goToMap(View view){
+        Intent intent = new Intent(this, map.class);
+        startActivity(intent);
+        finish();
+    }
 }
