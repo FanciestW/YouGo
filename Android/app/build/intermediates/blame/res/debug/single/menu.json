@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Documents\\YouGo\\Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Documents\\YouGo\\Android\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Documents\\YouGo\\Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\Documents\\YouGo\\Android\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    }
+]
