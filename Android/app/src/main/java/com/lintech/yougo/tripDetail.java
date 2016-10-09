@@ -38,15 +38,17 @@ public class tripDetail extends AppCompatActivity {
     }
 
     public void changeTrip(View view) {
+        final EditText destFld = (EditText) findViewById(R.id.destFld);
         final EditText longFld = (EditText) findViewById(R.id.longFld);
         final EditText latFld = (EditText) findViewById(R.id.latFld);
         final EditText radFld = (EditText) findViewById(R.id.radFld);
         final EditText emailFld = (EditText) findViewById(R.id.emailFld);
+        String destination = destFld.getText().toString();
         String longitude = longFld.getText().toString();
         String latitude = latFld.getText().toString();
         String rad = radFld.getText().toString();
         String email = emailFld.getText().toString();
-        Trip newTrip = new Trip(longitude, latitude, rad, email);
+        Trip newTrip = new Trip(destination, longitude, latitude, rad, email);
         tripsDB.setValue(newTrip);
         Intent intent = new Intent(this, TripList.class);
         startActivity(intent);

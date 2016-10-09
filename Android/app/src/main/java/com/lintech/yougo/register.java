@@ -59,7 +59,7 @@ public class register extends AppCompatActivity {
                                 regErrLbl.setText("Error Signing Up");
                             } else {
                                 User user = new User(name, email, task.getResult().getUser().getUid());
-                                Trip trip = new Trip("0", "0", "0", "");
+                                Trip trip = new Trip("", "0", "0", "0", "");
                                 newUser(user, trip);
                             }
                         }

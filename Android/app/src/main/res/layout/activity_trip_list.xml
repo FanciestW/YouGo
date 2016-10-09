@@ -16,11 +16,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#ECEFF1"
+        android:gravity="center"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:orientation="vertical"
-        android:paddingTop="70dp"
-        android:paddingBottom="70dp"
+        android:paddingTop="50dp"
+        android:paddingBottom="50dp"
         android:paddingLeft="50dp"
         android:paddingRight="50dp"
         android:id="@+id/linearLayout">
@@ -36,19 +37,41 @@
             android:fontFamily="monospace" />
 
         <TextView
-            android:id="@+id/longTxt"
+            android:id="@+id/destLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destination:"
+            android:textStyle="bold"
+            android:fontFamily="monospace"/>
+
+        <TextView
+            android:id="@+id/destTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
-            android:text="Longitude:"
+            android:fontFamily="monospace"/>
+
+        <TextView
+            android:id="@+id/coordLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coordinates:"
+            android:textStyle="bold"
             android:fontFamily="monospace" />
 
         <TextView
-            android:id="@+id/latTxt"
+            android:id="@+id/coordTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
-            android:text="Latitude:"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:id="@+id/radLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radius(m):"
+            android:textStyle="bold"
             android:fontFamily="monospace" />
 
         <TextView
@@ -56,13 +79,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
-            android:text="Radius(m):"
-            android:fontFamily="monospace" />
+            android:fontFamily="monospace"/>
+
+        <TextView
+            android:id="@+id/emailLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: "
+            android:textStyle="bold"
+            android:fontFamily="monospace"/>
+
+        <TextView
+            android:id="@+id/emailTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="monospace"/>
 
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:layout_marginTop="25dp"
             android:layout_alignParentBottom="true"
             android:id="@+id/relativeLayout">
 
@@ -97,6 +135,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="true"
+        android:onClick="testNotify"
         app:fabSize="mini"
         app:srcCompat="@drawable/ic_menu_manage"
         android:id="@+id/floatingActionButton"

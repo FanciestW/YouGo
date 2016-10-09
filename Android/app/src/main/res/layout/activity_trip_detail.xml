@@ -31,7 +31,7 @@
             android:fontFamily="monospace"
             android:textSize="33sp"
             android:textAllCaps="false"
-            android:layout_marginBottom="55dp"
+            android:layout_marginBottom="25dp"
             android:layout_centerHorizontal="true"
             android:textColor="@android:color/black"
             android:textStyle="normal|bold" />
@@ -40,30 +40,30 @@
             android:id="@+id/destFld"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            ems="10"
+            android:ems="10"
             android:fontFamily="monospace"
-            android:layout_marginBottom="25dp"
-            android:hint="Destination:" />
+            android:layout_marginBottom="10dp"
+            android:hint="Destination" />
 
         <EditText
             android:id="@+id/longFld"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
+            android:inputType=numberDecimal|numberSigned"
             android:ems="10"
             android:fontFamily="monospace"
-            android:layout_marginBottom="25dp"
-            android:hint="Longitude:"/>
+            android:layout_marginBottom="10dp"
+            android:hint="Longitude"/>
 
         <EditText
             android:id="@+id/latFld"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="numberDecimal"
+            android:inputType="numberDecimal|numberSigned"
             android:ems="10"
             android:fontFamily="monospace"
-            android:layout_marginBottom="25dp"
-            android:hint="Latitude:"/>
+            android:layout_marginBottom="10dp"
+            android:hint="Latitude"/>
 
         <EditText
             android:id="@+id/radFld"
@@ -72,8 +72,18 @@
             android:inputType="number"
             android:ems="10"
             android:fontFamily="monospace"
-            android:layout_marginBottom="25dp"
-            android:hint="Radius(m):"/>
+            android:layout_marginBottom="10dp"
+            android:hint="Radius(m)"/>
+
+        <EditText
+            android:id="@+id/emailFld"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="10dp"
+            android:hint="Contact Email"/>
 
         <Button
             android:text="Save Trip"

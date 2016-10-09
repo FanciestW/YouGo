@@ -43,8 +43,8 @@ public class TripList extends AppCompatActivity {
             }
         };
 
-        final TextView longTxt = (TextView)findViewById(R.id.longTxt);
-        final TextView latTxt = (TextView)findViewById(R.id.latTxt);
+        final TextView destTxt = (TextView)findViewById(R.id.destTxt);
+        final TextView coordTxt = (TextView)findViewById(R.id.coordTxt);
         final TextView radTxt = (TextView)findViewById(R.id.radTxt);
         final TextView emailTxt = (TextView)findViewById(R.id.emailTxt);
         tripsDB.addValueEventListener(new ValueEventListener() {
@@ -52,8 +52,8 @@ public class TripList extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Trip trip = dataSnapshot.getValue(Trip.class);
                 if(trip != null) {
-                    longTxt.setText(trip.longitude);
-                    latTxt.setText(trip.latitude);
+                    destTxt.setText(trip.destination);
+                    coordTxt.setText(trip.longitude + ", " + trip.latitude);
                     radTxt.setText(trip.radius);
                     emailTxt.setText(trip.email);
                 }
@@ -75,5 +75,9 @@ public class TripList extends AppCompatActivity {
     public void newTrip(View view){
         Intent intent = new Intent(this, tripDetail.class);
         startActivity(intent);
+    }
+
+    public void testNotify(View view){
+        System.err.println("Hello");
     }
 }

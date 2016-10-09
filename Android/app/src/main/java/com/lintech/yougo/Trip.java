@@ -6,11 +6,12 @@ package com.lintech.yougo;
 
 public class Trip {
 
-    public String UID, longitude, latitude, radius, email;
+    public String UID, destination, longitude, latitude, radius, email;
 
     public Trip(){}
 
-    public Trip(String longitude, String latitude, String rad, String email){
+    public Trip(String destination, String longitude, String latitude, String rad, String email){
+        this.destination = destination;
         this.longitude = longitude;
         this.latitude = latitude;
         this.radius = rad;
