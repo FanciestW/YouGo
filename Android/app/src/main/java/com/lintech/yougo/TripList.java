@@ -28,6 +28,7 @@ public class TripList extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
     private FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+    private DatabaseReference usersDB = FirebaseDatabase.getInstance().getReference();
     private DatabaseReference tripsDB = FirebaseDatabase.getInstance().getReference("trips").child(user.getUid());
 
     @Override
@@ -77,7 +78,8 @@ public class TripList extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void testNotify(View view){
-        System.err.println("Hello");
+    public void notify(View view){
+        final TextView emailTxt = (TextView)findViewById(R.id.emailTxt);
+        String email = emailTxt.getText().toString();
     }
 }

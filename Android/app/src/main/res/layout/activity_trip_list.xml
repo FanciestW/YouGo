@@ -135,7 +135,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clickable="true"
-        android:onClick="testNotify"
+        android:onClick="notify"
         app:fabSize="mini"
         app:srcCompat="@drawable/ic_menu_manage"
         android:id="@+id/floatingActionButton"
